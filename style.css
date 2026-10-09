@@ -342,3 +342,26 @@ nav a{padding:.45rem 0}
 .whatsapp-float:active{transform:scale(.96)}
 @media(max-width:620px){.whatsapp-float{right:max(16px,env(safe-area-inset-right));bottom:max(16px,env(safe-area-inset-bottom))}}
 @media(prefers-reduced-motion:reduce){.whatsapp-float{transition:none}.whatsapp-float:hover,.whatsapp-float:active{transform:none}}
+
+/* Logo leggibile e testata condivisa in tutte le pagine. */
+:root{--header-height:180px}
+html{scroll-padding-top:calc(var(--header-height) + 16px)}
+header{position:sticky;top:0;z-index:40;background:var(--paper);color:var(--ink)}
+.bar{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:.5rem 1rem;padding:.65rem 0}
+.brand{min-width:0;gap:1rem;font-size:1.5rem;line-height:1.2}
+.brand-mark{display:block;width:104px;height:104px;max-width:none;object-fit:contain;flex:none}
+.brand span{min-width:0}
+.bar>.btn{margin-left:0}
+.bar nav{grid-column:1/-1;gap:.25rem 1.6rem}
+@media(max-width:900px){
+ .brand{font-size:1.25rem;gap:.75rem}
+ .brand-mark{width:88px;height:88px}
+}
+@media(max-width:620px){
+ .bar{gap:.4rem .6rem;padding:.5rem 0}
+ .brand{font-size:1.05rem;gap:.5rem}
+ .brand-mark{width:76px;height:76px}
+ .bar>.btn{padding:0 .8rem;min-height:42px}
+ .bar nav{flex-wrap:nowrap;justify-content:flex-start;gap:1.2rem;overflow-x:auto;white-space:nowrap;padding-bottom:.3rem;max-width:100%}
+ .bar nav a{flex:none}
+}

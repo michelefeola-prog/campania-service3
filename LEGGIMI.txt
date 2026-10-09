@@ -1,48 +1,5 @@
-CAMPANIA SERVICE — VERSIONE VERDE E ORO
+Carica i file HTML, style.css e script.js nella cartella principale del repository campania-service3, sostituendo quelli esistenti. Le immagini restano quelle già presenti sul sito.
 
-CONTENUTO
-Sito completo: 6 pagine HTML, style.css, script.js e cartella images.
-Copia autonoma del sito originale con il nuovo logo verde e oro.
-Testi, font, impaginazione, fotografie, animazioni e funzioni sono invariati.
-Il logo fornito è utilizzato integralmente, senza ridisegnarlo.
+Logo: 104 px su desktop, 88 px su tablet, 76 px su smartphone. Testata persistente su tutte e sei le pagine. Menu scorrevole sui telefoni.
 
-ANTEPRIMA SUL COMPUTER
-1. Estrai tutto lo ZIP in una cartella.
-2. Apri index.html con Chrome, Edge o Firefox.
-3. Visita le altre pagine dal menu.
-Per i font Google e la mappa serve una connessione Internet.
-
-PUBBLICAZIONE SU UN NUOVO REPOSITORY GITHUB
-1. Crea un nuovo repository, per esempio campania-service-oro.
-2. Scegli Public se utilizzi GitHub Pages con un account gratuito.
-3. Seleziona Add file > Upload files.
-4. Carica tutti i file estratti e la cartella images.
-   index.html, style.css e script.js devono essere nella radice del repository.
-   Non caricare soltanto lo ZIP e non inserire index.html in una sottocartella.
-5. Conferma con Commit changes sul branch main.
-6. Apri Settings > Pages.
-7. In Build and deployment seleziona Deploy from a branch.
-8. Seleziona main e / (root), poi Save.
-9. Attendi che GitHub Pages mostri il link pubblicato.
-
-Esempio di indirizzo, se scegli il nome campania-service-oro:
-https://michelefeola-prog.github.io/campania-service-oro/
-Questo indirizzo diventa attivo soltanto dopo la pubblicazione.
-
-I repository delle altre versioni restano separati.
-Puoi mostrare le tre versioni con tre link differenti.
-Non servono installazioni, npm o compilazioni.
-
-PALETTE
-Verde scuro: #1D3E2F
-Oro: #AD8732
-Avorio: #FEF8EA
-Avorio dorato per le fasce: #F0E6CB
-Oro scuro dei pulsanti: #80611E, per mantenere il testo leggibile.
-Le tonalità di hover e i dettagli sono derivati dalla stessa palette.
-
-VERIFICHE
-Confrontati i contenuti delle sei pagine con il sito originale.
-CSS modificato esclusivamente nei colori.
-JavaScript e fotografie originali invariati.
-Verificati pagine, immagini, CSS, JavaScript e ancore locali.
+Verificati riferimenti condivisi, presenza del logo in tutte le pagine e sintassi JavaScript. La verifica visiva nel browser non è stata disponibile.

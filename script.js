@@ -103,3 +103,18 @@ if (lb) {
   }, { threshold: 0, rootMargin: '0px 0px -6% 0px' });
   items.forEach(function (el) { io.observe(el); });
 })();
+
+/* Lo scorrimento alle sezioni tiene conto dell'altezza reale della testata. */
+(function () {
+  var header = document.querySelector('header');
+  if (!header) return;
+  function updateHeaderHeight() {
+    document.documentElement.style.setProperty('--header-height', Math.ceil(header.getBoundingClientRect().height) + 'px');
+  }
+  updateHeaderHeight();
+  if ('ResizeObserver' in window) {
+    new ResizeObserver(updateHeaderHeight).observe(header);
+  } else {
+    window.addEventListener('resize', updateHeaderHeight);
+  }
+})();
