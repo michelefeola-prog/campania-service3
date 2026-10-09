@@ -1,5 +1,34 @@
-Carica i file HTML, style.css e script.js nella cartella principale del repository campania-service3, sostituendo quelli esistenti. Le immagini restano quelle già presenti sul sito.
+CAMPANIA SERVICE 3 — VERSIONE VERDE, AVORIO E ORO
 
-Logo: 104 px su desktop, 88 px su tablet, 76 px su smartphone. Testata persistente su tutte e sei le pagine. Menu scorrevole sui telefoni.
+COME VEDERE IL SITO
+1. Estrai l’intero ZIP in una cartella.
+2. Apri index.html nel browser e naviga nelle sei pagine.
+Le immagini sono incluse. Serve una connessione per i font Google e la mappa.
 
-Verificati riferimenti condivisi, presenza del logo in tutte le pagine e sintassi JavaScript. La verifica visiva nel browser non è stata disponibile.
+COME AGGIORNARE GITHUB PAGES
+Nel repository michelefeola-prog/campania-service3 sostituisci i sei file HTML
+con quelli presenti qui e aggiungi modern.css e modern.js nella cartella
+principale, accanto a style.css e script.js. Carica anche la cartella images per mantenere il nuovo logo e le icone corrette.
+Non serve installare dipendenze né eseguire una build.
+GitHub Pages renderà disponibili le modifiche dopo il normale deploy.
+
+COSA È CAMBIATO
+- Home: nuova apertura, richiamo grafico al filo, schede servizi e percorsi.
+- Macchine: selettore interattivo delle esigenze e messaggio WhatsApp dedicato.
+- Filati: percorso per progetto e tre palette di ispirazione interattive.
+- Usato garantito: evidenza alla garanzia di 12 mesi e guida alla scelta.
+- Riparazioni: tre passaggi e indicazioni per spiegare il difetto.
+- Il negozio: suggerimenti per preparare la visita.
+- Tutte le pagine: domande frequenti, nuova sezione contatti, comparsa durante
+  lo scorrimento, microinterazioni, barra di avanzamento e impaginazione mobile.
+
+VERIFICA
+Controllati struttura HTML, riferimenti locali, sintassi CSS e JavaScript,
+interazioni del selettore e delle palette, collegamenti contatto e modalità
+prefers-reduced-motion in un ambiente DOM simulato.
+L’anteprima visiva nel browser non è stata verificata: il browser remoto
+non raggiungeva il server locale. Verifica sul tuo PC prima di pubblicare.
+Le foto mostrano il negozio esistente; disponibilità e prezzi non sono inventati.
+
+La struttura e le animazioni sono le stesse della versione precedente.
+Il logo, le icone e la palette sono quelli del terzo sito.
